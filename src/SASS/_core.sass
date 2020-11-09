@@ -1,0 +1,35 @@
+.container
+  padding: 0 (2 * $spacer)
+  height: 100vh
+  height: calc(var(--vh, 1vh) * 100)
+
+.row
+  margin: 0 -#{$spacer}
+  display: flex
+  flex-flow: row wrap
+
+.col
+  padding: $spacer
+  flex-grow: 1
+  min-width: calc(100%/12)
+  max-width: 100%
+  text-align: center
+
+@for $i from 1 through 11
+  .col-max-#{$i}
+    max-width: 100% / (12 / $i)
+    flex-grow: $i
+
+  .col-min-#{$i + 1}
+    width: 100% / (12 / ($i + 1))
+    flex-grow: $i + 1
+
+.row-16
+  @for $i from 1 through 15
+    .col-max-#{$i}
+      max-width: 100% / (16 / $i)
+      flex-grow: $i
+
+    .col-min-#{$i + 1}
+      width: 100% / (16 / ($i + 1))
+      flex-grow: $i + 1
