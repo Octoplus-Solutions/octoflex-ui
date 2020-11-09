@@ -2,12 +2,19 @@
 $white: #fcfcfc !default
 $black: #151515 !default
 
-//Spacing unit
-$spacer: 1rem !default
-
 //Font
 $font-family: "Roboto"
 
-//Body variables
+//Body Variables
 $body-bg: $white
 $body-color: $black
+
+//Spacing Unit
+$spacer: 1rem !default
+$spacers: () !default
+$spacers: map-merge(( 0: 0, 
+1: ($spacer * .25),
+2: ($spacer * .5),
+3: $spacer,
+4: ($spacer * 2),
+5: ($spacer * 4)),$spacers)
