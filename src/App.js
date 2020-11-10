@@ -147,10 +147,10 @@ export default function App() {
               And of course all the margin auto classes m-auto, mx-auto, etc.
             </div>
           </div>
-          <div className="col col-12">
+          <div className="col col-min-12">
             <div className="p-3">The page Header is full width and sticky out of the box and the Footer sticks to the bottom even if the page is empty.</div>
           </div>
-          <div className="col col-12">
+          <div className="col col-max-4 offset-4">
             <div id="blackbox" className="p-3"><p><strong>Those are only the foundations of Octoflex UI. All the new features will be presented on this demo page.</strong></p>
             </div>
           </div>
