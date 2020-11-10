@@ -102,8 +102,8 @@ export default function App() {
           <div className="col col-min-12 px-0">
             <div>1 PX-0</div>
           </div>
-          <div className="col col-max-2 mx-auto">
-            <div>2-X MX-AUTO</div>
+          <div className="col col-max-2 offset-5">
+            <div>2-X OFFSET-5</div>
           </div>
         </div>
         <footer className="footer-row row-16">
