@@ -40,6 +40,8 @@
          flex-grow: $i + 1
 
 .row-16
+   .col
+      min-width: (100% / 16)
    @for $i from 1 through 15
       .col-max-#{$i}
          max-width: 100% / (16 / $i)
