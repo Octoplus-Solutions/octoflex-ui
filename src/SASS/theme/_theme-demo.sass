@@ -6,13 +6,21 @@
    h1
       color: #4d9eff
 
+#blackbox
+   background-color: $black !important
+   
 .col 
    display: flex
    align-items: stretch
    div
       flex-grow: 1
-      background-color: $grey-1000
+      background-color: $blue
       overflow: hidden
+      border-radius: .3 * $spacer
+
+.footer-row, .header-row
+   .col div
+      border-radius: 0
 
 a
    color: $white
