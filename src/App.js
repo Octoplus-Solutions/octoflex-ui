@@ -14,73 +14,73 @@ export default function App() {
         </header>
         <div className="row row-16">
           <div className="col col-min-2">
-            <div>2-X PX-0</div>
+            <div>2-X</div>
           </div>
           <div className="col col-max-1">
-            <div>1 ML-5</div>
+            <div>1</div>
           </div>
           <div className="col col-min-2">
-            <div>2-X MR-3</div>
+            <div>2-X</div>
           </div>
         </div>
         <div className="row row-16">
           <div className="col col-min-2">
-            <div>2-X PX-0</div>
+            <div>2-X</div>
           </div>
           <div className="col col-max-1">
-            <div>1 ML-5</div>
+            <div>1</div>
           </div>
           <div className="col col-min-2">
-            <div>2-X MR-3</div>
+            <div>2-X</div>
           </div>
         </div>
         <div className="row row-16">
           <div className="col col-min-2">
-            <div>2-X PX-0</div>
+            <div>2-X</div>
           </div>
           <div className="col col-max-1">
-            <div>1 ML-5</div>
+            <div>1</div>
           </div>
           <div className="col col-min-2">
-            <div>2-X MR-3</div>
+            <div>2-X</div>
           </div>
         </div>
         <div className="row row-16">
           <div className="col col-min-2">
-            <div>2-X PX-0</div>
+            <div>2-X</div>
           </div>
           <div className="col col-max-1">
-            <div>1 ML-5</div>
+            <div>1</div>
           </div>
           <div className="col col-min-2">
-            <div>2-X MR-3</div>
+            <div>2-X</div>
           </div>
         </div>
         <div className="row row-16">
           <div className="col col-min-2">
-            <div>2-X PX-0</div>
+            <div>2-X</div>
           </div>
           <div className="col col-max-1">
-            <div>1 ML-5</div>
+            <div>1</div>
           </div>
           <div className="col col-min-2">
-            <div>2-X MR-3</div>
+            <div>2-X</div>
           </div>
         </div>
         <div className="row row-16">
           <div className="col col-min-2">
-            <div>2-X PX-0</div>
+            <div>2-X</div>
           </div>
           <div className="col col-max-1">
-            <div>1 ML-5</div>
+            <div>1</div>
           </div>
           <div className="col col-min-2">
-            <div>2-X MR-3</div>
+            <div>2-X</div>
           </div>
         </div>
         <div className="row">
           <div className="col col-min-16 px-5">
-            <div>12 PL-5</div>
+            <div>12 PX-5</div>
           </div>
           <div className="col col-min-2">
             <div>2-X</div>
@@ -89,12 +89,26 @@ export default function App() {
             <div>1 P-0</div>
           </div>
           <div className="col col-max-2 mx-auto">
+            <div>2-X MX-AUTO</div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col-min-16 px-5">
+            <div>12 PX-5</div>
+          </div>
+          <div className="col col-min-2">
             <div>2-X</div>
+          </div>
+          <div className="col col-min-12 p-0">
+            <div>1 P-0</div>
+          </div>
+          <div className="col col-max-2 mx-auto">
+            <div>2-X MX-AUTO</div>
           </div>
         </div>
         <footer className="footer-row row-16">
-          <div className="col col-max-13 mx-auto">
-            <div>Footer</div>
+          <div className="col col-max-16 p-0">
+            <div><h2>Footer</h2></div>
           </div>
         </footer>
       </div>
