@@ -16,11 +16,11 @@ export default function App() {
           <div className="col col-min-2">
             <div>2-X</div>
           </div>
-          <div className="col col-max-1">
-            <div>1</div>
+          <div className="col col-max- offset-1">
+            <div>2 OFFSET-1</div>
           </div>
-          <div className="col col-min-2">
-            <div>2-X</div>
+          <div className="col col-min-2 offset-1">
+            <div>2-X OFFSET-1</div>
           </div>
         </div>
         <div className="row row-16">
