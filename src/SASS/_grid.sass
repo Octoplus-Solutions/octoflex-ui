@@ -15,14 +15,24 @@
    max-width: 100%
    text-align: center
 
-@for $i from 1 through 11
-   .col-max-#{$i}
-      max-width: 100% / (12 / $i)
-      flex-grow: $i
+@for $i from 1 through 15
+   @if $i < 11
+      .col-max-#{$i}
+         max-width: 100% / (12 / $i)
+         flex-grow: $i
 
-   .col-min-#{$i + 1}
-      width: 100% / (12 / ($i + 1))
-      flex-grow: $i + 1
+      .col-min-#{$i + 1}
+         width: 100% / (12 / ($i + 1))
+         flex-grow: $i + 1
+   @else
+      .col-max-#{$i}
+         max-width: 100%
+         flex-grow: $i
+
+      .col-min-#{$i + 1}
+         width: 100%
+         flex-grow: $i + 1
+
 
 .row-16
    @for $i from 1 through 15

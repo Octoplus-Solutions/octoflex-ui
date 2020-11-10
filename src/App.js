@@ -22,7 +22,7 @@ export default function App() {
           </div>
         </div>
         <div className="row">
-          <div className="col col-min-12 pl-5">
+          <div className="col col-min-16 pl-5">
             <div>12 PL-5</div>
           </div>
           <div className="col col-min-2">
