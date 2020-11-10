@@ -11,13 +11,13 @@ export default function App() {
               <h1>Octoflex UI</h1>
             </div>
           </div>
-          <div className="col col-min-2 px-0">
+          <div className="col col-min-2">
             <div>2-X PX-0</div>
           </div>
-          <div className="col col-max-1 ml-5">
+          <div className="col col-max-1">
             <div>1 ML-5</div>
           </div>
-          <div className="col col-min-2 mr-3">
+          <div className="col col-min-2">
             <div>2-X MR-3</div>
           </div>
         </div>
@@ -28,10 +28,10 @@ export default function App() {
           <div className="col col-min-2">
             <div>2-X</div>
           </div>
-          <div className="col col-max-1 p-0">
+          <div className="col col-min-12 p-0">
             <div>1 P-0</div>
           </div>
-          <div className="col col-min-2">
+          <div className="col col-max-2 mx-auto">
             <div>2-X</div>
           </div>
         </div>
