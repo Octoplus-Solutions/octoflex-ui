@@ -7,8 +7,8 @@ import AppDev from "./AppDev";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    {/*<AppDev />*/}
+    {/*<App />*/} 
+    <AppDev />
   </React.StrictMode>,
   rootElement
 );
