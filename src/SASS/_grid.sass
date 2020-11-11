@@ -1,0 +1,55 @@
+.container
+   padding: 0 2*$gutter
+   height: 100vh
+   height: calc(var(--vh, 1vh) * 100)
+   display: flex
+   flex-direction: column
+
+.row
+   margin: 0 (-$gutter)
+   display: flex
+   flex-flow: row wrap
+
+.col
+   padding: $gutter
+   flex-grow: 1
+   min-width: calc(100%/12)
+   max-width: 100%
+   text-align: center
+
+@for $i from 1 through 15
+   @if $i < 12
+      .col-max-#{$i}
+         max-width: 100% / (12 / $i)
+         flex-grow: $i
+
+      .col-min-#{$i + 1}
+         width: 100% / (12 / ($i + 1))
+         flex-grow: $i + 1
+
+      .offset-#{$i}
+         margin-left: 100% / (12 / $i)
+
+   @else
+      .col-max-#{$i}
+         max-width: 100%
+         flex-grow: $i
+
+      .col-min-#{$i + 1}
+         width: 100%
+         flex-grow: $i + 1
+
+.row-16
+   .col
+      min-width: (100% / 16)
+   @for $i from 1 through 15
+      .col-max-#{$i}
+         max-width: 100% / (16 / $i)
+         flex-grow: $i
+
+      .col-min-#{$i + 1}
+         width: 100% / (16 / ($i + 1))
+         flex-grow: $i + 1
+
+      .offset-#{$i}
+       margin-left: 100% / (16 / $i)

@@ -1,0 +1,28 @@
+.container
+   color: $white
+
+.header-row .col div, .footer-row .col div
+   background-color: $black 
+   h1
+      color: #4d9eff
+
+#blackbox
+   background-color: $black !important
+   
+.col 
+   display: flex
+   align-items: stretch
+   div
+      flex-grow: 1
+      background-color: $blue
+      overflow: hidden
+      border-radius: .3 * $spacer
+
+.footer-row, .header-row
+   .col div
+      border-radius: 0
+
+a
+   color: $white
+   &:hover
+      color: $grey-200
