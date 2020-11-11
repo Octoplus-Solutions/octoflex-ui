@@ -1,13 +1,59 @@
-//Black & White
+//Grays
 $white: #fcfcfc !default
+$grey-50: #ededed !default
+$grey-100: #ebebeb !default
+$grey-200: #d6d6d6 !default
+$grey-300: #c2c2c2 !default
+$grey-400: #adadad !default
+$grey-500: #999 !default
+$grey-600: #858585 !default
+$grey-700: #707070 !default
+$grey-800: #5c5c5c !default
+$grey-900: #474747 !default
+$grey-1000: #333 !default
+$grey-1100: #1f1f1f !default
 $black: #151515 !default
 
-//Spacing unit
-$spacer: 1rem !default
+$grays: () !default
+$grays: map-merge(("50": $grey-50,
+"100": $grey-100,
+"200": $grey-200,
+"300": $grey-300,
+"400": $grey-400,
+"500": $grey-500,
+"600": $grey-600,
+"700": $grey-700,
+"800": $grey-800,
+"900": $grey-900,
+"1000": $grey-1000,
+"1100": $grey-1100),$grays)
+
+
+//Colors
+$green: #00cc8b !default
+$blue: #1c7eff !default
+$purple: #b43bff !default
+$red: #FF0033 !default
+$orange: #ff7e33 !default
+$yellow: #ffeb3b !default
+
 
 //Font
-$font-family: "Roboto"
+$font-family: "Roboto", sans-serif !default
 
-//Body variables
+
+//Body Variables
 $body-bg: $white
 $body-color: $black
+
+
+//Spacing Unit
+$spacer: 1rem !default
+$spacers: () !default
+$spacers: map-merge(( 0: 0, 
+1: ($spacer * .25),
+2: ($spacer * .5),
+3: $spacer,
+4: ($spacer * 2),
+5: ($spacer * 4)),$spacers)
+$gutter: map-get($spacers, 2)
